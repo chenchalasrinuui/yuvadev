@@ -1,0 +1,23 @@
+.tabItems {
+    cursor: pointer;
+    position: relative;
+}
+
+.tabItems>span:not(:first-child) {
+    margin-left: 20px;
+}
+
+.activeTab {
+    position: relative;
+    color: black;
+    font-weight: 500;
+}
+
+.activeTab:after {
+    content: "";
+    border-bottom: 2px solid;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30px;
+}

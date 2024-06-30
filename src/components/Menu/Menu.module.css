@@ -1,0 +1,69 @@
+.menu {
+    background: white;
+    text-align: right;
+    line-height: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+}
+
+.mobileMenu {
+    background-color: white;
+    position: absolute;
+    height: 270px;
+    line-height: 20px;
+    padding: 10px 20px;
+    top: 88px;
+    transition: left 1s;
+    z-index: 9999999;
+    border: 2px solid;
+    border-radius: 10px;
+    width: 130px;
+}
+
+.mobileMenu>a {
+    display: block;
+    line-height: 30px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: black;
+}
+
+.menu>a {
+    margin-right: 15px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+.active {
+    text-shadow: 1px 1px 1px blue;
+}
+
+.mobile-menu {
+    width: 280px !important;
+    position: absolute;
+    z-index: 9999;
+    transition: left 1s;
+}
+
+.mobile-menu .card {
+    background: #f7f9fc !important
+}
+
+.mobileMenuBtn {
+    position: absolute;
+    right: 0;
+    top: 95px;
+    z-index: 99999;
+}
+
+.mobileMenuBtn>span {
+    width: 25px;
+    display: block;
+    border: 2px solid black;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}

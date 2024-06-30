@@ -1,0 +1,17 @@
+.leftSideItems {
+    padding: 5px;
+    margin-bottom: 5px;
+    border: 1px solid;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.leftSideItems:hover {
+    background-color: rgb(39, 37, 37);
+    color: white;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}

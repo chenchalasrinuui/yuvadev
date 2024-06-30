@@ -1,0 +1,38 @@
+[
+    {
+        "screen": "home",
+        "path": "home",
+        "label": "Home"
+    },
+    {
+        "screen": "about",
+        "path": "about",
+        "label": "About"
+    },
+    {
+        "screen": "courses",
+        "path": "courses",
+        "label": "Courses"
+    },
+    {
+        "screen": "services",
+        "path": "services",
+        "label": "Services"
+    },
+    {
+        "screen": "training",
+        "path": "training",
+        "label": "Trainings"
+    },
+    {
+        "screen": "contact",
+        "path": "contact",
+        "label": "Contact"
+    },
+    {
+        "screen": "login",
+        "path": "login",
+        "label": "Login",
+        "classes": "btn-view"
+    }
+]
